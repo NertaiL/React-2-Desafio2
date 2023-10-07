@@ -16,9 +16,10 @@ const PhotosProvider = ({ children }) => {
         setPhotos(photosDB.map((photo) => ({ ...photo, isFavorite: false }))); 
       })
       .catch((error) => {
-        console.error("You did not obtain the requested data", error);
+        console.error("You did not obtain the requested data:", error);
       });
   };
+
 
   /* con axios try catch */
 

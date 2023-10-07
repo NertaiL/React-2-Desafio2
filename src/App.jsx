@@ -1,4 +1,4 @@
-import ConnectRoutes from "./assets/routes/ConnectRoutes";
+import ConnectRoutes from "./routes/ConnectRoutes";
 import Navigation from "./components/Navigation";
 
 const App = () => {
